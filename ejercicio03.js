@@ -1,6 +1,6 @@
 function ejercicio3(arreglo)
 {
-    var texto = new Object();
+    var texto = {};
     for(var i = 1; i <= arreglo.length; i++)
     {
         texto["propiedad" + i] = arreglo[i-1];
